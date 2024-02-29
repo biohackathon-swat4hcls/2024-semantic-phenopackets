@@ -189,6 +189,6 @@ Possible CiTO typing annotation include:
 
 ## Acknowledgements
 
-...
+We thank the organisers of the SWAT4HCLS BioHackathon 2024 for hosting support for all of the authors. This work was funded/supported by XXX. Special thanks to all participants of the hackathon that made possible this project engaging with fruitful discussions or giving us support.
 
 ## References
