@@ -35,7 +35,7 @@ authors_short: Núria Queralt-Rosinach \emph{et al.}
 
 # Introduction
 
-As part of the SWAT4HCLS BioHackathon 2024, we here report on the semantic phenopackets use for federated analytics. We were a group of participants representative of several international projects namely BIND  [@citesAsAuthority:bind], EJP-RD [@citesAsAuthority:ejprd], Tokyo City University [@citesAsAuthority:tcu] and Maastricht University hospital [@citesAsAuthority:mu]. Our expertise ranges from Semantic Web technologies and metadata modelling to data stewarship.
+As part of the SWAT4HCLS BioHackathon 2024, we here report on the semantic phenopackets use for federated analytics. Our approach was to link phenopackets and omics datasets at metadata level. We were a group of participants representative of several international projects namely BIND  [@citesAsAuthority:bind], EJP-RD [@citesAsAuthority:ejprd], Tokyo City University [@citesAsAuthority:tcu] and Maastricht University hospital [@citesAsAuthority:mu]. Our expertise ranges from Semantic Web technologies and metadata modelling to data stewarship.
 
 ## Project description
 
@@ -45,36 +45,28 @@ GA4GH Phenopackets is a standard to represent computable clinical data of patien
 # Methods
 
 ### Links
-Phenopackets schema: https://phenopacket-schema.readthedocs.io/en/latest/schema.html
-Phenopackets paper DOI: https://doi.org/10.1038/s41587-022-01357-4
-Semantic phenopackets paper: https://ceur-ws.org/Vol-3127/paper-4.pdf
-Semantic phenopackets GitHub: https://github.com/LUMC-BioSemantics/phenopackets-rdf-schema
-Example FAIR Data Point Núria: https://fdp.duchennedatafoundation.org/
-Example FAIR Data Point Daphne: https://patient-registries.fdps.ejprd.semlab-leiden.nl/catalog/be087100-64a1-4fb7-86ed-ca8e0efbd3a9
-Phenopackets-DCAT modelling: https://docs.google.com/drawings/d/1lZPkuQU01yYqbuBHnGrzmzoQYAvJ8GoJSi_U5tjN6Vs/edit?usp=sharing
-Semantic phenopackets v2: https://github.com/acopom/phenopackets-rdf-schema
+* Phenopackets schema: https://phenopacket-schema.readthedocs.io/en/latest/schema.html
+* Phenopackets paper DOI: https://doi.org/10.1038/s41587-022-01357-4
+* Semantic phenopackets paper: https://ceur-ws.org/Vol-3127/paper-4.pdf
+* Semantic phenopackets GitHub: https://github.com/LUMC-BioSemantics/phenopackets-rdf-schema
+* Example FAIR Data Point Núria: https://fdp.duchennedatafoundation.org/
+* Example FAIR Data Point Daphne: https://patient-registries.fdps.ejprd.semlab-leiden.nl/catalog/be087100-64a1-4fb7-86ed-ca8e0efbd3a9
+* Phenopackets-DCAT modelling: https://docs.google.com/drawings/d/1lZPkuQU01yYqbuBHnGrzmzoQYAvJ8GoJSi_U5tjN6Vs/edit?usp=sharing
+* Semantic phenopackets v2: https://github.com/acopom/phenopackets-rdf-schema
 
 ### Game plan
 
 | Tasks | Participants |
 | -------- | -------- |
-| Link phenopackets (PPs) and FAIR Data Point ( based on DCAT)
- | @Daphne Wijnbergen 
-@Daniela Vicentini Albring @Inês De Oliveira Coelho Henriques 
-@César Bernabé 
-@Chang Sun @Núria Queralt Rosinach 
- |
-| Extend semantic/RDF PPs to v2
- | @atsuko 
-@Chang Sun @Núria Queralt Rosinach 
- |
+| Link phenopackets (PPs) and FAIR Data Point (based on DCAT) | @Daphne Wijnbergen @Daniela Vicentini Albring @Inês De Oliveira Coelho Henriques @César Bernabé @Chang Sun @Núria Queralt Rosinach |
+| Extend semantic/RDF PPs to v2 | @atsuko @Chang Sun @Núria Queralt Rosinach  |
 | Phenopackets metadata description  in the FAIR Data Point |  |
 | Omics metadata description in the FAIR Data Point |  |
 
 
 # Results
 
-## Link phenopackets (PPs) and FAIR Data Point ( based on DCAT)
+## Link phenopackets (PPs) and FAIR Data Point (based on DCAT)
 Brainstorming models:
 
 | Options for link | Advantages | Disadvantages | 
