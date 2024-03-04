@@ -74,7 +74,7 @@ Brainstorming models:
 
 | Options for link | Advantages | Disadvantages | 
 | -------- | -------- | -------- |
-| Add phenopackets RDF to dcat:Dataset RDF, and add a triple to point from dcat:Dataset  to the phenopacket root node |  |  | 
+| Add phenopackets RDF to dcat:Dataset RDF, and add a triple to point from dcat:Dataset  to the phenopacket root node. | Easily queried | Might fail validation in FDP. Not possible for privacy sensitive data. | 
 | Make a new subclass from dcat:Resource for phenopackets, point to this from the dataset |  | Requires configuration of a new resource type in the FAIR Data Point to display new class |
 | Have one dcat:Dataset for the omics data. Have one dcat:Dataset for the phenopacked. Make a link between the datasets with dct:relation. | Follows DCAT and FDP specification 100%. No extra configuration needed. | Querying is limited? |
 
