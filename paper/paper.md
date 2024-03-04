@@ -10,6 +10,9 @@ authors:
   - name: Núria Queralt-Rosinach
     orcid: 0000-0003-0169-8159
     affiliation: 1
+  - name: Daphne Wijnbergen
+    orcid: 0000-0002-7449-6657
+    affiliation: 1
   - name: Last Author
     orcid: 0000-0000-0000-0000
     affiliation: 2
