@@ -10,6 +10,9 @@ authors:
   - name: Núria Queralt-Rosinach
     orcid: 0000-0003-0169-8159
     affiliation: 1
+  - name: Daphne Wijnbergen
+    orcid: 0000-0002-7449-6657
+    affiliation: 1
   - name: Last Author
     orcid: 0000-0000-0000-0000
     affiliation: 2
@@ -71,8 +74,8 @@ Brainstorming models:
 
 | Options for link | Advantages | Disadvantages | 
 | -------- | -------- | -------- |
-| Add phenopackets RDF to dcat:Dataset RDF, and add a triple to point from dcat:Dataset  to the phenopacket root node |  |  | 
-| Make a new subclass from dcat:Resource for phenopackets, point to this from the dataset |  | Requires configuration of a new resource type in the FAIR Data Point to display new class |
+| Add phenopackets RDF to dcat:Dataset RDF, and add a triple to point from dcat:Dataset  to the phenopacket root node. | Easily queried. | Might fail validation in FDP. Not possible for privacy sensitive data. | 
+| Make a new subclass from dcat:Resource for phenopackets, point to this from the dataset. |  | Requires configuration of a new resource type in the FAIR Data Point to display new class. |
 | Have one dcat:Dataset for the omics data. Have one dcat:Dataset for the phenopacked. Make a link between the datasets with dct:relation. | Follows DCAT and FDP specification 100%. No extra configuration needed. | Querying is limited? |
 
 ### Draft linking model
